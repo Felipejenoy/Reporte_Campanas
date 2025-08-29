@@ -14,4 +14,4 @@ df["TasaConversion"] = (df["conversiones"] / df["clics"]) * 100
 
 # Guardar como JSON
 df.to_json("datos_campanas.json", orient="records")
-print("✅ Archivo 'datos_campanas.json' generado.")
+print(" Archivo 'datos_campanas.json' generado.")

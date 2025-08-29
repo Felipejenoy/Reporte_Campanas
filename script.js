@@ -1,4 +1,4 @@
-// Cargar datos desde JSON
+// Cargar datos desde nuestro JSON
 fetch('datos_campanas.json')
 .then(response => response.json())
 .then(data => {
